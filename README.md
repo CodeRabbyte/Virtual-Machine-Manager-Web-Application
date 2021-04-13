@@ -1,7 +1,7 @@
 # Virtual-Machine-Manager-Web-App
 **THIS SHOULD NOT BE EXPOSED TO THE WEB, ONLY USE AS INTERNAL SERVICE**
-Aims to imitate Virtual Machine Manager as a webapp
-Outputs to novnc, or guacamole
+
+Aims to imitate Virtual Machine Manager as a webapp using flask
 
 ![Pic](Progress.png?raw=true "Demo")
 
