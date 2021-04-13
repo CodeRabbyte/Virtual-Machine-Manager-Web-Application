@@ -33,8 +33,9 @@ guac_usr = xxxx                                # Guacamole user with admin privi
 guac_pwd = xxxx                                # Guacamole password for user
 
 [Libvirt]
-hostIp = 192.168.1.1                           # VM HOST IP (FOR VNC and SPICE)
-host = username@192.168.1.1:22                 # SSH HOST
+ssh_host = 192.168.1.1                          # SSH HOST for libvirt, vnc, and spice
+ssh_port = 22                                   # SSH PORT for libvirt, vnc, and spice
+ssh_usr = xxxx                                  # SSH USER
 ```
 ## Usage
 
