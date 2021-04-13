@@ -2,7 +2,7 @@
 Aims to imitate Virtual Machine Manager as a webapp
 Outputs to novnc, or guacamole
 
-## Setup
+## Inital Setup
 
 Guacamole Install (Optional)
 ```
@@ -12,8 +12,13 @@ NOVNC Install (Optional)
 ```
 sudo snap install novnc
 ```
-Setup ssh keys (if this is not running on the same server as vms)
+
+## Setup (if this is not running on the same server as vms)
+
+Setup ssh keys
 https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_deployment_and_administration_guide/sect-remote_management_of_guests-remote_management_with_ssh
+
+Setting up vms to work with vnc...
 
 ## Config
 
